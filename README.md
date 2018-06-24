@@ -1,2 +1,3 @@
 # Reinforcement-Learning-Training-a-Smartcab-to-Drive
-img src = "simulation images/improved learning.jpg"
+
+Reinforcement-Learning-Training-a-Smartcab-to-Drive/simulation images/improved learning.jpg
