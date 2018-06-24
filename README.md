@@ -1,3 +1,5 @@
 # Reinforcement-Learning-Training-a-Smartcab-to-Drive
 
-Reinforcement-Learning-Training-a-Smartcab-to-Drive/simulation images/improved learning.jpg
+<p>
+    <img src="simulation images/improved learning.jpg" width="220" height="240" />
+</p>
