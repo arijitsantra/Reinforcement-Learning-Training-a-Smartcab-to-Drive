@@ -11990,9 +11990,9 @@ Run the agent.py file after setting the flags from projects/smartcab folder inst
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="simulation images/no learning.jpg"></p>
 <p><strong>Answer:</strong>
-<img src="attachment:image%201.jpg" alt="image%201.jpg"></p>
-<p>The driving agent is making bad decisions around 45% of the time. Out of these, around 5% is causing minor accidents and 7% is causing major accidents. So around 12% is resulting in accidents.</p>
+The driving agent is making bad decisions around 45% of the time. Out of these, around 5% is causing minor accidents and 7% is causing major accidents. So around 12% is resulting in accidents.</p>
 <p>The rate of reliability is around 20%. The agent can choose one of 4 possible actions, out of which one is the correct action. So probability of choosing the correct action is 25%. So 20% reliability is just about right.</p>
 <p>The driving agent is consistently receiving negative rewards for its actions. The 10 trial rolling average starts at around -8 and reduces to around -5. Since it is choosing actions randomly, there’s a 75% chance of choosing the wrong action. So it is being penalized heavily.</p>
 <p>Since it is choosing actions randomly and not learning anything, the number of trials has no influence on the outcome of the result.</p>
@@ -12177,8 +12177,8 @@ For waypoint, possible no of states is 3 (left, right, forward)</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong>
-<img src="attachment:image%202.jpg" alt="image%202.jpg"></p>
+<p><img src="simulation images/default learning.jpg"></p>
+<p><strong>Answer:</strong></p>
 <p>The similarity between the basic driving agent and default Q-learning agent is that both are rated F in terms of safety and reliability.</p>
 <p>20 training trials were required before testing. Since epsilon = epsilon – 0.05 at every step, 20 steps will reduce it by 1 (=20*0.05) to 0.</p>
 <p>The exploration factor is accurately represented in the parameters panel</p>
@@ -12261,8 +12261,8 @@ You may also use a decaying function for $\alpha$ (the learning rate) if you so 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong>
-<img src="attachment:image%203.jpg" alt="image%203.jpg"></p>
+<p><img src="simulation images/improved learning.jpg"></p>
+<p><strong>Answer:</strong></p>
 <p>Epsilon = alpha ^ trial has been used.</p>
 <p>Approximately 1400 training trials were used before testing started</p>
 <p>Epsilon tolerance was taken as 0.001 and alpha was taken as 0.995 to increase the number of training trials so as to cover all possible states. 0.001 = 0.995 ^ trial, which implies trial = log (0.001)/log (0.995) = 1380 (approximately).</p>
